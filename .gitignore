@@ -1,0 +1,47 @@
+# Compiled python files
+*.pyc
+
+# macOS generated files
+.DS_STORE
+
+# Temporary and log files
+*.tmp
+*.log
+
+# Coverage generated files
+.coverage
+coverage.xml
+
+# Ply generated files
+parser.out
+parsetab.py
+
+# JetBrains generated files
+.idea/
+
+# Build files
+.cache/
+build/
+dist/
+*.egg-info/
+
+# Tox generated files
+.tox/
+
+# Python cache
+_pycache_/
+
+# Z3 library release files
+z3/
+
+# Output figure
+*.pdf
+
+# Result data file
+*.json
+
+# Coverage reports
+.coverage.*
+
+# pytest cache
+.pytest_cache
