@@ -1,5 +1,4 @@
 # StatDP 
-[![Github Actions](https://github.com/yxwangcs/statdp/workflows/build/badge.svg)](https://github.com/yxwangcs/statdp/actions?workflow=build) [![codecov](https://codecov.io/gh/yxwangcs/statdp/branch/master/graph/badge.svg)](https://codecov.io/gh/yxwangcs/statdp)
 
 Statistical Counterexample Detector for Differential Privacy.
 
@@ -48,9 +47,7 @@ def detect_counterexample(algorithm, test_epsilon, default_kwargs=None, database
 ```
 
 ## Install
-We do provide a docker container for experiment, use `docker pull cmlapsu/statdp` to pull the container with anaconda built in, then run `docker run --rm -it cmlapsu/statdp`. 
-
-However, for the best performance we recommend installing `statdp` in a `conda` virtual environment (or `venv` if you prefer, the setup is similar):
+We recommend installing `statdp` in a `conda` virtual environment (or `venv` if you prefer, the setup is similar):
 
 ```bash
 # we use python 3.8, but 3.6 and above should work fine
