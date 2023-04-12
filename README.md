@@ -69,7 +69,8 @@ A nice python library `matplotlib` is recommended for visualizing your result.
 There's a python code snippet at `/examples/benchmark.py`(`plot_result` method) to show an example of plotting the results.
 
 Then you can generate a figure like the iSVT 4 in our paper.
-![iSVT4](https://raw.githubusercontent.com/yxwangcs/StatDP/master/examples/iSVT4.svg?sanitize=true)
+
+![iSVT4](https://raw.githubusercontent.com/cmla-psu/statdp/master/examples/iSVT4.svg?sanitize=true)
 
 ## Customizing the detection
 Our tool is designed to be modular and components are fully decoupled. You can write your own `input generator`/`event selector` and apply them to `hypothesis test`.
